@@ -1,0 +1,15 @@
+@import url('./var.css');
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+}
+
+.nav-box button {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;  
+    border: 2px solid transparent;
+}
+

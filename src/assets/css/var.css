@@ -1,0 +1,21 @@
+:root {
+    --background: linear-gradient(90deg, #fffefe 25%, #f2f2f2 50%);
+    --text-primary: #0f0f0f;
+    --text-secondary: #4e4e4e;
+    --accent: #dfb017;
+    --accent-hover: #c29914; 
+    --border: #1f1e1e;
+    --shadow: 7px 15px 13px -4px #00000056;
+
+    --font-family: 'Montserrat', sans-serif;
+}
+
+[data-theme='dark'] {
+    --background: linear-gradient(90deg, rgb(69, 64, 69) 25%, #292b36 50%);
+    --text-primary: #f2f2f2;
+    --text-secondary: #a7a4a4;
+    --accent: #6a5acd;
+    --accent-hover: #5b4cbe; 
+    --border: #696969;
+    --shadow: 7px 15px 13px -4px #ffffff1b;
+}
